@@ -37,6 +37,15 @@ class Song
         # genre_count[genre] = if its there add 1 for the count += 1
         # if its not there genre_count[genre] = 1
         # return??? genre_count
+        @@genres.each do |genre|
+            if genre_count[genre]
+                genre_count[genre] += 1
+            else
+                genre_count[genre] = 1
+
+            end
+        end
+        genre_count
     end
 
 
