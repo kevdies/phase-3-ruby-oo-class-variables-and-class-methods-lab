@@ -30,7 +30,13 @@ class Song
 
     def self.genre_count
         genre_count = {}
-        
+        # need to set the keys as the genre name
+        #each key genre points to a value that is the number of songs that genre has
+        #
+        # if genre is in the @@genres array then genre_count index/key??
+        # genre_count[genre] = if its there add 1 for the count += 1
+        # if its not there genre_count[genre] = 1
+        # return??? genre_count
     end
 
 
